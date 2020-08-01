@@ -51,7 +51,6 @@ namespace CalculatorSample.Tests
 		[TestCase(-2, 2, -1)]
 		[TestCase(-2, -2, 1)]
 		[TestCase(9, 3, 3)]
-		[TestCase(1, 3, 0.33333)]
 		public void ThatDivisionIsWorkingCorrectly(int a, int b, double expected)
 		{
 			//Setup
