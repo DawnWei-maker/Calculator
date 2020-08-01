@@ -10,22 +10,22 @@ namespace CalculatorSample
 
         public int Add(int a, int b)
         {
-            throw new NotImplementedException();
+            return a + b;
         }
 
         public int Substract(int a, int b)
         {
-            throw new NotImplementedException();
+            return a - b;
         }
 
         public int Multiply(int a, int b)
         {
-            throw new NotImplementedException();
+            return a * b;
         }
 
         public double Divide(int a, int b)
         {
-            throw new NotImplementedException();
+            return a/b;
         }
     }
 }
